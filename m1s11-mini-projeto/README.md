@@ -17,4 +17,4 @@ npm install -D @types/leaflet
 
 npm install -G json-server
 
-npm install @mui/icons-material @mui/material @emotion/react @emotion/styled @mui/styled-engine-sc
+npm install react-bootstrap @mui/icons-material @mui/material @emotion/react @emotion/styled @mui/styled-engine-sc
