@@ -11,10 +11,10 @@ Currently, two official plugins are available:
 
 # Install dependencies:
 
-npm install axios react-router-dom styled-components react-leaflet
+npm install react-router-dom react-hook-form axios styled-components react-leaflet
 
 npm install -D @types/leaflet
 
 npm install -G json-server
 
-npm install @mui/material @emotion/react @emotion/styled
+npm install @mui/icons-material @mui/material @emotion/react @emotion/styled @mui/styled-engine-sc
