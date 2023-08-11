@@ -1,10 +1,11 @@
 import { HeaderStyled } from './styled'
 import { Grid } from '@mui/material'
-import { Link } from '@mui/material'
+import { ButtonImageRoutes } from '../Button/ButtonImageRoutes';
 
 function Header() {
 
     const toggleMode = () => {
+        alert("Changing Mode!")
         // setMode(mode === 'dark' ? 'light' : 'dark');
     };
 
@@ -39,20 +40,26 @@ function Header() {
                         xs: 'repeat(3, 1fr)',
                     }}
                 >
-                    <section>
-                        <img src="https://img.icons8.com/?size=512&id=14096&format=png" alt="Ícone Home" />
-                        <Link to={'/'}>Início</Link>
-                    </section>
+                    <ButtonImageRoutes
+                        imageSource={"https://img.icons8.com/?size=512&id=14096&format=png"}
+                        altName={"Icone Home"}
+                        route={"/"}
+                        buttonName={"Início"}
+                    />
 
-                    <section>
-                        <img src="https://img.icons8.com/?size=512&id=23400&format=png" alt="Ícone Pessoa" />
-                        <Link to={'/sobre'}>Sobre Mim</Link>
-                    </section>
+                    <ButtonImageRoutes
+                        imageSource={"https://img.icons8.com/?size=512&id=23400&format=png"}
+                        altName={"Icone Pessoa"}
+                        route={"/sobre"}
+                        buttonName={"Sobre Mim"}
+                    />
 
-                    <section>
-                        <img src="https://img.icons8.com/?size=512&id=9emOgiekluvM&format=png" alt="Ícone Projetos" />
-                        <Link to={'/projetos'}>Meus Projetos</Link>
-                    </section>
+                    <ButtonImageRoutes
+                        imageSource={"https://img.icons8.com/?size=512&id=9emOgiekluvM&format=png"}
+                        altName={"Icone Projetos"}
+                        route={"/projetos"}
+                        buttonName={"Meus Projetos"}
+                    />
                 </Grid>
 
                 <button onClick={toggleMode}>

@@ -9,6 +9,7 @@ padding: 8;
 font-size: 18px;
 
 img{
+    align-self: center;
     width: 30px;
 }
 `

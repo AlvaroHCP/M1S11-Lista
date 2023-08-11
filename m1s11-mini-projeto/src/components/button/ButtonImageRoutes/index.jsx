@@ -7,7 +7,7 @@ function ButtonImageRoutes({ imageSource, altName, route, buttonName }) {
 
             <Link to={route} style={{ display: 'flex' }}>
                 <img src={imageSource} alt={altName} />
-                {buttonName}
+                <p>{buttonName}</p>
             </Link>
 
         </ButtonStyled>
