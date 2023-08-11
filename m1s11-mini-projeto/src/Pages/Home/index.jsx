@@ -5,7 +5,7 @@ import { HomeStyled } from './styled'
 
 function Home() {
     return (
-        <>
+        <div>
             <Header />
 
             <HomeStyled>
@@ -18,7 +18,7 @@ function Home() {
             </HomeStyled>
 
             <Footer />
-        </>
+        </div>
     )
 }
 
