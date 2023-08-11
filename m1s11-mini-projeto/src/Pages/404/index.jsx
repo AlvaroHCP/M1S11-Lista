@@ -5,18 +5,18 @@ import { PageNotFound } from './styled'
 function NotFound404() {
     const navigate = useNavigate()
 
-    const goTo = () => {
-        return (
-            navigate('/')
-        )
+    const goTo = (path) => {
+        navigate(path)
     }
 
     useEffect(() => {
         setTimeout(() => {
-            goTo()
+            goTo('/')
 
-        }, 3000)
+        }, 5000)
     })
+
+    const goBack = () => navigate(-1)
 
     return (
         // <h1 style={{ textAlign: "center" }}>Erro 404. Página não encontrada</h1>
@@ -26,10 +26,10 @@ function NotFound404() {
                     Erro 404. Página não encontrada!
                 </h1>
                 <p>
-                    Você está sendo redirecionado para a página principal em 2 segundos!!!
+                    Você está sendo redirecionado para a página principal em 5 segundos!!!
                 </p>
                 <h5>Ou clique no botão abaixo para voltar à página anterior!</h5>
-                <button onClick={navigate(-1)}>Voltar</button>
+                <button onClick={goBack}>Voltar</button>
             </PageNotFound>
         </>
     )
