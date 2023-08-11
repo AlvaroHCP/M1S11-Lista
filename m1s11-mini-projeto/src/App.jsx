@@ -1,16 +1,12 @@
 import { BrowserRouter } from 'react-router-dom'
-import { Header } from './components/Header'
-import { Footer } from './components/Footer'
+import { RoutesApp } from './routes'
 import './App.css'
-import { ButtonImageRoutes } from './components/Button/ButtonImageRoutes'
 
 function App() {
   return (
     <>
       <BrowserRouter>
-        <Header />
-        <ButtonImageRoutes />
-        <Footer />
+        <RoutesApp />
       </BrowserRouter>
     </>
   )
