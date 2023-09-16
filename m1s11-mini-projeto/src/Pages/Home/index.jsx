@@ -26,7 +26,7 @@ function Home() {
                     Na área acadêmica aprendi muito sobre auto-gestão, gerenciamento de projetos de pesquisa
                     e desenvolvimento, resiliência, determinação, consistência, constância, comunicação
                     em público através de apresentações de trabalhos em congressos nacionais e internacionais,
-                    a trabalhar em equipe, além de habilidades técnicas.
+                    a trabalhar em equipe, além de habilidades técnicas em Física, Estatística, e Programação.
                 </p>
                 <h2>Conquistas!</h2>
                 <p>
@@ -42,11 +42,22 @@ function Home() {
                     estatística e modelos físicos para aferir e testar hipóteses dentro do método científico.
                 </p>
                 <p>
-                    Esses softwares desenvolvidos foram em Mathematica, que usa as linguagens C++/Java como base,
-                    LabView, que é uma linguagem de programação visual mais ao estilo Visual Basic, no estilo
-                    Drag and Drop de estruturas de programação, em C, para performance de cálculos matemáticos,
-                    e em python, para análises estatísticas com mais facilidade e entrega mais intuitiva de
-                    resultados.
+                    Esses softwares desenvolvidos foram em: <ul>
+                        <li>
+                            Mathematica, que usa as linguagens C++/Java como base,
+                        </li>
+                        <li>
+                            LabView, que é uma linguagem de programação visual mais ao estilo Visual Basic, no estilo
+                            Drag and Drop de estruturas de programação,
+                        </li>
+                        <li>
+                            em C, para performance de cálculos matemáticos,
+                        </li>
+                        <li>
+                            e em python, para análises estatísticas com mais facilidade e entrega mais intuitiva de
+                            resultados.
+                        </li>
+                    </ul>
                 </p>
 
             </HomeStyled>
