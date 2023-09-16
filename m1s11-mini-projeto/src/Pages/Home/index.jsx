@@ -13,7 +13,7 @@ function Home() {
 
                 <h2>Alvaro Henrique C Pimentel:</h2>
                 <p>
-                    Futuro Dev Full-Stack, Programador, e Físico Quântico Experimental.
+                    Full-Stack Dev, Programador, e Físico Quântico Experimental.
                 </p>
 
                 <h2>Algumas qualidades:</h2>
