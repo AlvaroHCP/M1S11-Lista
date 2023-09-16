@@ -7,7 +7,7 @@ function RoutesApp() {
     return (
         <Routes>
             <Route path={'/'} element={<Home />} />
-            <Route path={'/AboutMe/'} element={<AboutMe />} />
+            <Route path={'/sobre'} element={<AboutMe />} />
             <Route path={'*'} element={<NotFound404 />} />
         </Routes>
     )
