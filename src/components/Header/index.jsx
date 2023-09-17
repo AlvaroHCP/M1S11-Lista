@@ -1,6 +1,6 @@
 import { HeaderStyled } from './styled'
 import { Grid } from '@mui/material'
-import { ButtonImageRoutes } from '../button/ButtonImageRoutes';
+import { ButtonImageRoutes } from '../Button/ButtonImageRoutes';
 
 function Header() {
 

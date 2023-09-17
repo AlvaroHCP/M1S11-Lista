@@ -1,7 +1,7 @@
 import FooterStyled from "./styled";
 // import  from 'react-bootstrap/Col'
 import { InfoAlvaroRodape } from "../infoAlvaroRodape";
-import { ButtonImageLink } from "../button/ButtonImageLink";
+import { ButtonImageLink } from "../Button/ButtonImageLink";
 
 function Footer() {
     return (
